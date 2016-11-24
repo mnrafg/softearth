@@ -1,0 +1,27 @@
+{
+    "name": "karyal/softearth",
+    "description": "SoftEarth object-oriented PHP library.",
+    "keywords": ["library", "softearth"],
+    "license": "MIT",
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/karyall/softearth/issues",
+        "source": "https://github.com/karyall/softearth"
+    },
+    "authors": [
+        {
+            "name": "Muhammad Nasir Rahimi",
+            "email": "mnr@karyal.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+    	"psr-4": {
+    		"SoftEarth\\": "src/SoftEarth/"
+    	}
+    },
+    "minimum-stability": "dev"
+}
