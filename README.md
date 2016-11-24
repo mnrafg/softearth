@@ -1,2 +1,2 @@
 # SoftEarth
-A PHP object-oriented library for managing geographical (earth specific) data.
+An object-oriented PHP library for managing geographical (earth specific) data.
