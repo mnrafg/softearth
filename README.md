@@ -1,5 +1,3 @@
-# SoftEarth
-
 <!--
 [![Build Status](https://travis-ci.org/mnrahimi/softearth.svg?branch=master)](https://travis-ci.org/mnrahimi/softearth)
 [![License](https://poser.pugx.org/mnrahimi/softearth/license)](https://packagist.org/packages/mnrahimi/softearth)
@@ -13,6 +11,8 @@
 <a href="https://packagist.org/packages/mnrahimi/softearth"><img src="https://poser.pugx.org/mnrahimi/softearth/v/unstable" alt="Latest Unstable Version"></a>
 <a href="https://packagist.org/packages/mnrahimi/softearth"><img src="https://poser.pugx.org/mnrahimi/softearth/v/stable" alt="Latest Stable Version"></a>
 </p>
+
+# SoftEarth
 
 An object-oriented PHP library for managing geographical (earth specific) data.
 
