@@ -69,9 +69,22 @@ class Country
 
 	/**
 	 * Create a new country.
+	 *
+	 * @param  string  $name  The country name.
+	 * @return void
 	 */
-	public function __construct()
+	public function __construct($name)
 	{
-		// ...
+		$this->name = $name;
+	}
+
+	/**
+	 * Get the country name.
+	 *
+	 * @return string The country name.
+	 */
+	public function getName()
+	{
+		return $this->name;
 	}
 }
