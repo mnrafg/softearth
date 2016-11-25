@@ -1,4 +1,7 @@
 # SoftEarth
+
+[![Build Status](https://travis-ci.org/mnrahimi/softearth.svg?branch=master)](https://travis-ci.org/mnrahimi/softearth)
+
 An object-oriented PHP library for managing geographical (earth specific) data.
 
 ## The Idea
