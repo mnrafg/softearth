@@ -61,12 +61,11 @@ class Country
 	private $currency;
 
 	/**
-	 * The country timezone. According or one of:
-	 * https://secure.php.net/manual/en/timezones.php
+	 * The country timezone.
 	 *
-	 * @var string
+	 * @var string \DateTimeZone
 	 */
-	private $timezone;
+	private $timeZone;
 
 	/**
 	 * Create a new country.
