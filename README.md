@@ -1,15 +1,15 @@
 <!--
 [![Build Status](https://travis-ci.org/mnrahimi/softearth.svg?branch=master)](https://travis-ci.org/mnrahimi/softearth)
-[![License](https://poser.pugx.org/mnrahimi/softearth/license)](https://packagist.org/packages/mnrahimi/softearth)
 [![Latest Unstable Version](https://poser.pugx.org/mnrahimi/softearth/v/unstable)](https://packagist.org/packages/mnrahimi/softearth)
 [![Latest Stable Version](https://poser.pugx.org/mnrahimi/softearth/v/stable)](https://packagist.org/packages/mnrahimi/softearth)
+[![License](https://poser.pugx.org/mnrahimi/softearth/license)](https://packagist.org/packages/mnrahimi/softearth)
 -->
 
 <p align="center">
 <a href="https://travis-ci.org/mnrahimi/softearth"><img src="https://travis-ci.org/mnrahimi/softearth.svg?branch=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/mnrahimi/softearth"><img src="https://poser.pugx.org/mnrahimi/softearth/license" alt="License"></a>
 <a href="https://packagist.org/packages/mnrahimi/softearth"><img src="https://poser.pugx.org/mnrahimi/softearth/v/unstable" alt="Latest Unstable Version"></a>
 <a href="https://packagist.org/packages/mnrahimi/softearth"><img src="https://poser.pugx.org/mnrahimi/softearth/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/mnrahimi/softearth"><img src="https://poser.pugx.org/mnrahimi/softearth/license" alt="License"></a>
 </p>
 
 # SoftEarth
