@@ -15,6 +15,7 @@
         }
     ],
     "require": {
+        "imagine/imagine": "^0.6.3"
     },
     "require-dev": {
     },
