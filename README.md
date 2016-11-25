@@ -30,6 +30,10 @@ For using SoftEarth within your projects we recommend to install it using compos
 $ php composer.phar require mnrahimi/softearth
 ```
 
+## Basic Usage
+
+Comming soon...
+
 ## The Idea
 
 The idea behind SoftEarth is that I want to create an object-oriented PHP library for accessing, manipulating and managing geographical data like country, state (province), city and the related properties and attributes like country's currency and all the nested data to each object.<br><br>
