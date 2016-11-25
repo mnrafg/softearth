@@ -3,8 +3,8 @@
 namespace SoftEarth\Country;
 
 use SoftEarth\Exceptions\Country as CountryExceptions;
-use CountryExceptions\InvalidCountryShortCodeException;
-use CountryExceptions\InvalidCountryLongCodeException;
+use CountryExceptions\InvalidCountryShortCode;
+use CountryExceptions\InvalidCountryLongCode;
 
 class CountryCode
 {
@@ -54,7 +54,7 @@ class CountryCode
 			return $this->short = strtoupper($code);
 		}
 		
-		throw new InvalidCountryShortCodeException($code);
+		throw new InvalidCountryShortCode($code);
 	}
 
 	/**
@@ -69,7 +69,7 @@ class CountryCode
 			return $this->long = strtoupper($code);
 		}
 		
-		throw new InvalidCountryLongCodeException($code);
+		throw new InvalidCountryLongCode($code);
 	}
 
 	/**

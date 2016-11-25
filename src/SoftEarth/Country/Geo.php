@@ -3,8 +3,8 @@
 namespace SoftEarth\Country;
 
 use SoftEarth\Exceptions\Country as CountryExceptions;
-use CountryExceptions\InvalidLatitudeException;
-use CountryExceptions\InvalidLongitudeException;
+use CountryExceptions\InvalidLatitude;
+use CountryExceptions\InvalidLongitude;
 
 class Geo
 {
@@ -53,7 +53,7 @@ class Geo
 			return $this->latitude = $latitude;
 		}
 
-		throw new InvalidLatitudeException($latitude);
+		throw new InvalidLatitude($latitude);
 	}
 
 	/**
@@ -67,7 +67,7 @@ class Geo
 			return $this->longitude = $longitude;
 		}
 
-		throw new InvalidLongitudeException($longitude);
+		throw new InvalidLongitude($longitude);
 	}
 
 	/**

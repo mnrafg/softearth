@@ -2,7 +2,7 @@
 
 namespace SoftEarth\Exceptions;
 
-abstract class InvalidDataException extends SoftEarthException
+abstract class InvalidData extends SoftEarthException
 {
 	/**
 	 * Error message.

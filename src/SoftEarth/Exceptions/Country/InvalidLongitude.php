@@ -2,7 +2,7 @@
 
 namespace SoftEarth\Exceptions\Country;
 
-class InvalidLatitudeException extends InvalidGeoDataException
+class InvalidLongitude extends InvalidGeoData
 {
 	/**
 	 * {@inheritDoc}
@@ -10,11 +10,11 @@ class InvalidLatitudeException extends InvalidGeoDataException
 	protected function setMessages($error = null, $suggest = null)
 	{
 		if (!$error) {
-			$error = 'Invalid latitude value: %s. ';
+			$error = 'Invalid longitude value: %s. ';
 		}
 
 		if (!$suggest) {
-			$suggest = 'A valid latitude value must be greater than or equal to -90 and less than or equal to 90.';
+			$suggest = 'A valid longitude value must be greater than or equal to -180 and less than or equal to 180.';
 		}
 		
 		$this->errorMsg = $error;

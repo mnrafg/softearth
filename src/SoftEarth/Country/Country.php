@@ -61,9 +61,10 @@ class Country
 	private $currency;
 
 	/**
-	 * The country timezone.
+	 * The country timezone. According or one of:
+	 * https://secure.php.net/manual/en/timezones.php
 	 *
-	 * @var \SoftEarth\Timezone
+	 * @var string
 	 */
 	private $timezone;
 

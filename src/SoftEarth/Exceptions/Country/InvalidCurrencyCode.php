@@ -2,7 +2,9 @@
 
 namespace SoftEarth\Exceptions\Country;
 
-class InvalidCountryLongCodeException extends InvalidCountryCodeException
+use SoftEarth\Exceptions\InvalidData;
+
+class InvalidCurrencyCode extends InvalidData
 {
 	/**
 	 * {@inheritDoc}
@@ -10,11 +12,11 @@ class InvalidCountryLongCodeException extends InvalidCountryCodeException
 	protected function setMessages($error = null, $suggest = null)
 	{
 		if (!$error) {
-			$error = 'Invalid long code: %s. ';
+			$error = 'Invalid currency code: %s. ';
 		}
 
 		if (!$suggest) {
-			$suggest = 'A valid long code must be three characters A-z.';
+			$suggest = 'A valid currency code must be three characters A-z.';
 		}
 		
 		$this->errorMsg = $error;

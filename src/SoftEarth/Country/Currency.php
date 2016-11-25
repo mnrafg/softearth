@@ -3,7 +3,7 @@
 namespace SoftEarth\Country;
 
 use SoftEarth\Exceptions\Country as CountryExceptions;
-use CountryExceptions\InvalidCurrencyCodeException;
+use CountryExceptions\InvalidCurrencyCode;
 
 class Currency
 {
@@ -70,7 +70,7 @@ class Currency
 			return $this->code = strtoupper($code);
 		}
 		
-		throw new InvalidCurrencyCodeException($code);
+		throw new InvalidCurrencyCode($code);
 	}
 
 	/**

@@ -2,7 +2,7 @@
 
 namespace SoftEarth\Exceptions\Country;
 
-class InvalidCountryShortCodeException extends InvalidCountryCodeException
+class InvalidLatitude extends InvalidGeoData
 {
 	/**
 	 * {@inheritDoc}
@@ -10,11 +10,11 @@ class InvalidCountryShortCodeException extends InvalidCountryCodeException
 	protected function setMessages($error = null, $suggest = null)
 	{
 		if (!$error) {
-			$error = 'Invalid short code: %s. ';
+			$error = 'Invalid latitude value: %s. ';
 		}
 
 		if (!$suggest) {
-			$suggest = 'A valid short code must be two characters A-z.';
+			$suggest = 'A valid latitude value must be greater than or equal to -90 and less than or equal to 90.';
 		}
 		
 		$this->errorMsg = $error;

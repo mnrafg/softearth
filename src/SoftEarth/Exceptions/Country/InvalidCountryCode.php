@@ -2,9 +2,9 @@
 
 namespace SoftEarth\Exceptions\Country;
 
-use SoftEarth\Exceptions\InvalidDataException;
+use SoftEarth\Exceptions\InvalidData;
 
-class InvalidGeoDataException extends InvalidDataException
+class InvalidCountryCode extends InvalidData
 {
 	/**
 	 * {@inheritDoc}
@@ -12,11 +12,11 @@ class InvalidGeoDataException extends InvalidDataException
 	protected function setMessages($error = null, $suggest = null)
 	{
 		if (!$error) {
-			$error = 'Invalid geo data: %s. ';
+			$error = 'Invalid country code: %s. ';
 		}
 
 		if (!$suggest) {
-			$suggest = 'Please enter a valid geo data.';
+			$suggest = 'A valid country code must be two or three characters A-z.';
 		}
 		
 		$this->errorMsg = $error;
