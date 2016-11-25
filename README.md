@@ -41,3 +41,7 @@ Any contribution will be greatly appreciated. Currently there are no specific co
 
 Thanks in advance,<br>
 Muhammad Nasir Rahimi
+
+## License
+
+SoftEarth is released under the MIT Licence. See the bundled LICENSE file for details.
