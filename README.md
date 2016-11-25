@@ -24,7 +24,7 @@ The SoftEarth PHP library has the following requirements:
 
 ## Download / Install
 
-For using SoftEarth within your projects we recommend to install it using composer however you can clone or download the whole `mnrahimi/softearth` repo.
+For using SoftEarth within your projects we recommend to install it using composer.
 
 ```
 $ php composer.phar require mnrahimi/softearth
