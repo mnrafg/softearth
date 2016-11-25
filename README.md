@@ -22,7 +22,7 @@ The SoftEarth PHP library has the following requirements:
 
 * PHP 5.6+
 
-## Download / Install
+## Installation
 
 For using SoftEarth within your projects we recommend to install it using composer.
 
