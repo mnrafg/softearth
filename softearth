@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+// Migrations directory
+$migrationsDir = __DIR__.'/database/migrations';
+
+// SQLite Database file
+$databaseFile = __DIR__.'/database/database.sqlite';
+
+// Require composer autoloader
+require __DIR__.'/vendor/autoload.php';
+
+// Bootstrap and configure the illuminate/database for use
+$capsule = require_once __DIR__.'/database/bootstrap.php';
+
+if (!is_dir($migrationsDir)) {
+	return false;
+}
+
+// All migrations directory files
+$migrations = array_diff(scandir($migrationsDir), ['.', '..']);
+
+// Require all migrations files
+foreach ($migrations as $file) {
+	if (is_readable($migrationsDir.'/'.$file)) {
+		require $migrationsDir.'/'.$file;
+	}
+}
