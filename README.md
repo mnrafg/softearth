@@ -49,4 +49,4 @@ Muhammad Nasir Rahimi
 
 ## License
 
-SoftEarth is released under the MIT Licence. See the bundled LICENSE file for details.
+SoftEarth is released under the MIT Licence. See the bundled LICENSE [file](https://github.com/mnrahimi/softearth/blob/master/LICENSE) for details.
