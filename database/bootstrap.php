@@ -13,7 +13,7 @@ if (!is_readable($databaseFile)) {
 // Configure the Capsule Manager
 $capsule->addConnection([
     'driver'    => 'sqlite',
-    'database'  => __DIR__.'/database.sqlite',
+    'database'  => $databaseFile,
 ]);
 
 // Return the capsule
