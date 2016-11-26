@@ -19,8 +19,8 @@
     },
     "require-dev": {
         "imagine/imagine": "^0.6.3",
-        "phpunit/phpunit": "^5.6.5",
-        "illuminate/database": "^5.3.23"
+        "phpunit/phpunit": "^5.6",
+        "illuminate/database": "^5.3"
     },
     "autoload": {
     	"psr-4": {
