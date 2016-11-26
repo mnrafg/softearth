@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Database\Capsule\Manager as Capsule;
-use Illuminate\Container\Container;
 
 // Create an instace of Capsule Manager
-$capsule = new Capsule(new Container);
+$capsule = new Capsule;
 
 if (!is_readable($databaseFile)) {
 	touch($databaseFile);
@@ -14,7 +13,13 @@ if (!is_readable($databaseFile)) {
 $capsule->addConnection([
     'driver'    => 'sqlite',
     'database'  => $databaseFile,
+    'charset'   => 'utf8',
+    'collation' => 'utf8_unicode_ci',
+    'prefix'    => '',
 ]);
+
+// Make this Capsule instance available globally via static methods...
+$capsule->setAsGlobal();
 
 // Return the capsule
 return $capsule;
