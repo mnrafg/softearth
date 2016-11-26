@@ -15,10 +15,10 @@
         }
     ],
     "require": {
+        "imagine/imagine": "^0.6.3",
         "php": ">=5.6.2"
     },
     "require-dev": {
-        "imagine/imagine": "^0.6.3",
         "phpunit/phpunit": "^5.6"
     },
     "autoload": {
