@@ -28,7 +28,7 @@ For using SoftEarth within your projects we recommend to install it using [compo
 $ composer require mnrahimi/softearth
 ```
 
-**Note**: Currently SoftEarth can not be installed by `composer require` because we don't have any stable release till now, so for the test purpose you may install it as:
+**Note**: Currently SoftEarth can not be installed by `composer require` because we don't have any stable release till now, so for the purpose of test you may install it as:
 
 ```
 $ composer create-project mnrahimi/softearth SoftEarth dev-master
